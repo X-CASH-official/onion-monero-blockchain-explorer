@@ -4,7 +4,6 @@
 
 #include "MicroCore.h"
 
-
 namespace xmreg
 {
 /**
@@ -63,7 +62,9 @@ MicroCore::init(const string& _blockchain_path, network_type nt)
     // check if the blockchain database
     // is successful opened
     if(!db->is_open())
+    {
         return false;
+    }
 
     // initialize Blockchain object to manage
     // the database.

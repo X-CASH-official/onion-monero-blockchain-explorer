@@ -79,6 +79,7 @@ namespace xmreg
 
 
 
+
     bool
     init_blockchain(const string& path,
                     MicroCore& mcore,
