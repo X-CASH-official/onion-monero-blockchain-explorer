@@ -5169,7 +5169,7 @@ public:
         if (!get_monero_network_info(j_info))
         {
             j_response["status"]  = "error";
-            j_response["message"] = "Cant get xcash network info";
+            j_response["message"] = "Cant get X-CASH network info";
             return j_response;
         }
 

@@ -2,12 +2,12 @@ var config = {
     testnet: false, // this is adjusted page.h if needed. dont need to change manually
     stagenet: false, // this is adjusted page.h if needed. dont need to change manually
     coinUnitPlaces: 6,
-    txMinConfirms: 10,         // corresponds to CRYPTONOTE_DEFAULT_TX_SPENDABLE_AGE in Monero
-    txCoinbaseMinConfirms: 60, // corresponds to CRYPTONOTE_MINED_MONEY_UNLOCK_WINDOW in Monero
-    coinSymbol: 'XCASH',
+    txMinConfirms: 10,         // corresponds to CRYPTONOTE_DEFAULT_TX_SPENDABLE_AGE in X-CASH
+    txCoinbaseMinConfirms: 60, // corresponds to CRYPTONOTE_MINED_MONEY_UNLOCK_WINDOW in X-CASH
+    coinSymbol: 'XCA',
     openAliasPrefix: "xcashd",
     coinName: 'X-CASH',
-    coinUriPrefix: 'x-cash:',
+    coinUriPrefix: 'X-CASH:',
     addressPrefix: 0x5c134,
     integratedAddressPrefix: 0x3fc134,
     subAddressPrefix: 42,
