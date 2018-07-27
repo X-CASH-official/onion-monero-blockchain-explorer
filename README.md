@@ -37,7 +37,7 @@ make
 
 ##### Compile and run the explorer
 
-Once the X-CASH is compiles, the explorer can be downloaded and compiled
+Once you have downloaded the X-CASH source code, download and compile the explorer
 as follows:
 
 ```bash
@@ -45,7 +45,7 @@ as follows:
 cd ~
 
 # download the source code
-git clone https://github.com/X-CASHexamples/onion-X-CASH-blockchain-explorer.git
+git clone https://github.com/X-CASH-official/onion-monero-blockchain-explorer.git
 
 # enter the downloaded sourced code folder
 cd onion-X-CASH-blockchain-explorer
@@ -54,7 +54,7 @@ cd onion-X-CASH-blockchain-explorer
 mkdir build && cd build
 
 # create the makefile
-cmake -DX-CASH_DIR=/path/to/X-CASH_folder ..
+cmake -DMONERO_DIR=/path/to/X-CASH_folder ..
 
 # compile
 make
